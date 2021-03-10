@@ -1,0 +1,95 @@
+
+  /*.location {
+    min-width: 30%;
+    height: 240px;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 0 7.5px 15px;
+    background-position: center;
+    background-size: cover;
+  
+    &:first-child {
+      margin-right: 7.5px;
+    }
+  
+    &:last-child {
+      margin-left: 7.5px;
+    }
+  
+    .content {
+      height: 90px;
+      padding: 0 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid black;
+      background: whitetrains;
+      font-family: left;
+
+  
+      .title {
+        font-weight: bold;
+        margin-bottom: 6px;
+        font-size: 22px;
+        color: #4a4a4a;
+      }
+  
+      .subtitle {
+        font-weight: lighter;
+        font-size: 16px;
+      }*/
+      img{
+        width:300px;
+                height: 300px;
+        border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+ 
+      }
+    //  .rcontent {
+    //     height: 25px;
+    //     padding: 0 25px;
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     justify-content: center;
+    //     border: 1px solid black;
+    //     background: whitetrains;
+    //     font-family: left;
+    //   }
+ 
+  
+  .rcontent{
+    width:350px;
+    height: 425px;
+    padding: 1px;
+    text-align: center;
+    /*computerAccessories*/
+    box-shadow: 0 5px 3px rgb(8, 36, 71);
+    margin: 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    
+    background-color: rgb(255, 255, 255);
+    color: turquoise;
+    border-radius: 5px;
+    
+  }
+ 
+    .rcontent h1{
+      padding:10px;
+    }
+  
+  
+  .overview{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 95vw;
+    margin: auto;
+    padding-top: 25px;
+  }
